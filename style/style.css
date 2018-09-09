@@ -1,0 +1,370 @@
+nav{
+  background-color: #002aa7;
+  line-height: 3em;
+}
+
+.link{
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+div > .nav-link{
+  text-align: center;
+}
+
+.header{
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.fa-question-circle{
+  font-size: 38px;
+  margin-right: 20px;
+  color: black;
+  vertical-align: middle;
+}
+
+.fa-comment{
+  vertical-align: top;
+  color: black;
+  font-size: 25px;
+}
+
+.fa-sign-out-alt{
+  font-size: 27px;
+}
+
+.row > div > a > i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.logout{
+  margin-left: 20px;
+  height: 40px;
+}
+
+.help-center{
+  display: inline;
+}
+
+.help-center > a > i{
+    transition: 0.5s;
+}
+
+.help-center >a>i:hover{
+  color: #002aa7;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.orange-text{
+  color: #ff9900 !important;
+}
+
+.orange-bg{
+  background-color: #ff9900;
+}
+
+.txt-blue{
+  color: #002aa7;
+}
+
+.txt-green{
+  color: #00ab00;
+}
+
+.search-bar{
+  width: 40%
+}
+
+.search-bar input{
+  width: 85% !important;
+}
+
+.search-bar button{
+  height: 38px;
+}
+
+.active-blue{
+  background-color: #002aa7;
+  border: none !important;
+}
+
+.menu-item{
+  border: 2px solid #666666;
+  margin: 10px 0;
+  transition: 0.3s;
+}
+
+.menu-item:hover{
+  background-color: rgba(0, 42, 167, 0.6);
+  color: rgba(255,255,255,1);
+  border-color: rgba(0, 42, 167, 1);
+}
+
+.bank-footer{
+  padding: 8px 0;
+  background-color: #002aa7;
+  color: #fff !important;
+}
+
+.bank-footer i{
+  margin-right: 10px;
+}
+
+.bank-footer > a:first-of-type{
+  text-decoration: underline;
+  color: white;
+}
+
+.nav-tabs i{
+  margin-right: 5px;
+}
+
+.middle-content{
+  margin-bottom: 85px;
+}
+
+.summary{
+  background-color: rgba(50, 101, 255, 0.3);
+  height: 100px;
+}
+
+.summary button i{
+  font-size: 45px;
+}
+
+.summary .nav-link{
+  margin: 12px 0;
+}
+
+.summary button{
+  color: #002aa7;
+  background-color: transparent;
+}
+
+.txt-right{
+  text-align: right;
+}
+
+.summary > .row > div:nth-child(2){
+  margin-top: 15px;
+}
+
+.txt-center{
+  text-align: center;
+}
+
+.earnings{
+  text-align: center;
+  font-weight: bold;
+  color: #00ab00;
+}
+
+.spendings{
+  text-align: center;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.iban{
+  position: absolute !important;
+  bottom: 0;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.transaction{
+  color: #333333;
+}
+
+.trans-day{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.amount{
+  font-weight: bold;
+  text-align: right;
+}
+
+.additional{
+  font-size: 22px;
+}
+
+.details{
+  font-size: 10px;
+}
+
+.landing-menu-item{
+  color: rgba(255,255,255,.5);
+  display: block;
+  padding: .5rem 1rem;
+  background-color: #002aa7;
+}
+
+.landing-menu-item:hover{
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+}
+
+.landing-active{
+  color: #fff;
+}
+
+div .pie-chart svg{
+  width: 80px;
+  margin-top: 10px;
+}
+
+#navbarSupportedContent{
+  background-color: #333333;
+  margin-top: 5px;
+}
+
+#tabs{
+  margin-top:100px;
+}
+
+#landing-search{
+  background-color: #002aa7;
+  margin: 0;
+  width: 100%;
+}
+
+#landing-search div{
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767.98px) {
+   #auto-order, .auto-order{
+     display : flex;
+     flex-direction : column;
+   }
+    .A {
+      order: 1;
+   }
+    .B {
+      order: 2;
+    }
+    .C {
+      order: 3;
+    }
+    .search-bar{
+      width: 100%;
+      margin-top: 10px;
+    }
+    .search-bar input{
+      width: 80% !important;
+    }
+
+    .summary{
+      height: 125px;
+      position: relative !important;
+    }
+
+    .summary > .row:first-child{
+      height: 145px;
+    }
+
+    .account{
+      text-align: center;
+    }
+
+    .balance{
+      text-align: center;
+    }
+
+    .iban{
+      margin-top: 10px;
+    }
+
+    .footer-bank-name{
+      display: none !important;
+    }
+
+    .bank-footer a{
+      color: #dc3545 !important;
+      padding: 0 !important;
+    }
+    .nav-tabs a span{
+      display: none;
+    }
+
+    .middle-content{
+      margin-bottom: 90px;
+    }
+
+    div .pie-chart svg{
+      display: none;
+    }
+
+    .scroll-y{
+      overflow-y: scroll;
+      height: 400px;
+    }
+
+    .transaction, .trans-day, .amount {
+      font-size: 0.9rem;
+    }
+
+    .landing-menu-item{
+      background-color: #fff;
+      border: 2px solid #666666;
+      color: black;
+      width: 90%;
+      display: inline-table;
+      line-height: 2.5em;
+      margin: 0.2em;
+      padding: 0 1em;
+      transition: 0.3s;
+    }
+
+    .landing-menu-item:hover{
+      background-color: rgba(0, 42, 167, 0.8);
+      text-decoration: none;
+      color: #ccc;
+
+    }
+
+    #tabs{
+      margin-top: 150px;
+    }
+
+    #landing-search div{
+      width: 100%;
+    }
+
+}
+
+@media (max-width: 370px){
+  .header{
+    font-size: 1.5rem;
+  }
+  .account > span:first-child{
+    display: none;
+  }
+
+  .iban{
+    font-size: 12px;
+  }
+
+  .iban > span:first-child{
+    display: none;
+  }
+
+  .transaction, .trans-day, .amount {
+    font-size: 0.8rem;
+  }
+}
