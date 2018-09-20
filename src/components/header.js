@@ -30,7 +30,7 @@ class Header extends Component{
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
-                <button className="btn btn-outline-danger logout" aria-label="Logout"><i className="fas fa-sign-out-alt"></i></button>
+                <Link to="/" className="btn btn-outline-danger logout" aria-label="Logout"><i className="fas fa-sign-out-alt"></i></Link>
               </div>
             </div>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
