@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import LandingHeader from './landing-header';
 import SlideShow from './slide-show.js';
 import Footer from './footer';
+import Login from './login';
 
 class BankIndex extends Component{
   render(){
@@ -12,6 +13,7 @@ class BankIndex extends Component{
         <LandingHeader />
         <div>
           <SlideShow />
+          <Login />
         </div>
         <Footer />
       </div>

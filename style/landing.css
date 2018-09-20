@@ -1,0 +1,40 @@
+.login-form{
+  z-index: 1;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 115px auto;
+  width: 52%;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.login-form-content{
+  margin: 0 auto;
+}
+
+.form-inline div{
+  padding: 0 2px;
+}
+
+.form-inline a{
+  text-align: center;
+}
+
+.login-form h4{
+  color: #868686;
+}
+
+@media (max-width: 767.98px) {
+  .login-form{
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 575.98px){
+  .login-form{
+    width: 100%;
+  }
+  .form-inline div{
+    margin-bottom: 2px;
+  }
+}
