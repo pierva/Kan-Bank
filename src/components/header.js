@@ -64,12 +64,12 @@ class Header extends Component{
 
                 <div className="row">
                   <div className="nav-item menu-item col-md-3 col-12" aria-label="Transfer">
-                    <Link className="nav-link" to="/transfer">
+                    <Link className="nav-link" to="/transfer/new">
                       <i className="fas fa-exchange-alt"></i>Transfer
                     </Link>
                   </div>
                   <div className="nav-item menu-item col-md-3 col-12" aria-label="Investments">
-                    <Link className="nav-link" to="/payments">
+                    <Link className="nav-link" to="/payments/new">
                       <i className="fas fa-money-bill-alt"></i>Bill Pay
                     </Link>
                   </div>

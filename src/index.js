@@ -15,8 +15,8 @@ ReactDOM.render(
       <div className="w-100">
         <Switch>
           <Route path="/home" component={BankHome} />
-          <Route path="/transfer" component={BankTransfer} />
-          <Route path="/payments" component={BankPayments} />
+          <Route path="/transfer/new" component={BankTransfer} />
+          <Route path="/payments/new" component={BankPayments} />
           <Route path="/" component={BankIndex} />
         </Switch>
       </div>
