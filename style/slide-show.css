@@ -85,3 +85,9 @@
     height: 253px;
   }
 }
+
+@media (max-width: 575.98px){
+  .slideshow{
+    height: 190px;
+  }
+}

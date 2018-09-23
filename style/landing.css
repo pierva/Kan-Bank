@@ -1,6 +1,10 @@
+.login-form-container{
+  position: fixed;
+  margin: 0 auto !important;
+}
+
 .login-form{
   z-index: 1;
-  position: relative;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 115px auto;
   width: 52%;
@@ -24,6 +28,14 @@
   color: #868686;
 }
 
+.landing-middle-content{
+  overflow-y: auto;
+  margin-top: 260px !important;
+  margin: 0 auto;
+  position: fixed;
+  height: 40%;
+}
+
 @media (max-width: 767.98px) {
   .login-form{
     margin-top: 100px;
@@ -31,8 +43,17 @@
 }
 
 @media (max-width: 575.98px){
+
   .login-form{
-    width: 100%;
+    margin-top: 40px;
+  }
+
+  .middle-content{
+    margin-top: 200px !important;
+  }
+
+  .login-form h4{
+    font-size: 16px;
   }
   .form-inline div{
     margin-bottom: 2px;

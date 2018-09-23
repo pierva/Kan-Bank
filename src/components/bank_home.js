@@ -68,7 +68,7 @@ class BankHome extends Component{
         <Tabs />
         <div className="container middle-content">
           <h3 className="header" aria-label="Account details">ACCOUNT DETAILS</h3>
-          < AccountSummary />
+          <AccountSummary />
           <hr className="style-two" />
           <h2 className="header" aria-label="latest transactions">Latest transactions</h2>
           <TransactionList

@@ -5,6 +5,7 @@ import LandingHeader from './landing-header';
 import SlideShow from './slide-show.js';
 import Footer from './footer';
 import Login from './login';
+import Content from './landing-middle-content';
 
 class BankIndex extends Component{
   render(){
@@ -14,6 +15,7 @@ class BankIndex extends Component{
         <div>
           <SlideShow />
           <Login />
+          <Content />
         </div>
         <Footer />
       </div>
