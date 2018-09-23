@@ -82,6 +82,33 @@ hr.style-two {
   color: #00ab00;
 }
 
+.address-btn i {
+  color: #fff;
+  font-size: 26px;
+}
+
+.address-btn {
+  background-color: #ff9900 !important;
+  border-color: #ff9900 !important;
+  cursor: pointer;
+  margin-top: 2em;
+}
+
+.invalid-text{
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.invalid-input{
+  border-color: #dc3545 !important;
+}
+
+.valid-input{
+  border-color: #28a745 !important;
+}
+
 .search-bar{
   width: 40%
 }
@@ -147,17 +174,17 @@ hr.style-two {
   margin: 12px 0;
 }
 
-.summary button{
+.summary button, .transfer-summary button{
   color: #002aa7;
   background-color: transparent;
 }
 
-.txt-right{
-  text-align: right;
-}
-
 .summary > .row > div:nth-child(2){
   margin-top: 15px;
+}
+
+.txt-right{
+  text-align: right;
 }
 
 .txt-center{

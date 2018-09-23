@@ -1,0 +1,33 @@
+.transfer-content{
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+.transfer-summary{
+  background-color: rgba(50, 101, 255, 0.3);
+  height: 58px;
+}
+
+.transfer-summary button i{
+  font-size: 30px;
+}
+
+@media (max-width: 767.98px){
+  .transfer-content{
+    margin-top: 140px;
+  }
+
+  .account select{
+    width: 50%;
+  }
+
+  .transfer-summary{
+    height: 70px;
+  }
+}
+
+@media (max-width: 370px){
+  .account select{
+    width: 100%;
+  }
+}
