@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export default () =>{
   return(
-    <div className="row">
-    <div className="login-form">
+    <div className="row container-fluid login-form-container">
+    <div className="login-form col-sm-12 col-md-6 col-offset-3">
       <h4 className="txt-center"><i className="fas fa-lock"></i>&nbsp;LOGIN INTO YOUR BANK</h4>
         <form className="form-inline col-12">
             <div className="form-group col-lg-5 col-md-6 col-12">
@@ -23,6 +23,7 @@ export default () =>{
             <Link className="col-12" to="#">Forgot User Id/Passcode?</Link>
         </form>
     </div>
+    <div className="clearfix"></div>
   </div>
   )
 }
