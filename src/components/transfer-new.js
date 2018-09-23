@@ -38,7 +38,6 @@ class TransferNew extends Component {
 
   render(){
     const { handleSubmit } = this.props;
-    console.log(this.props);
 
     return (
       <div>
