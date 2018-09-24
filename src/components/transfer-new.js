@@ -47,7 +47,7 @@ class TransferNew extends Component {
             parentClass="form-group col-10 pr-0"
             label="To:"
             name="to"
-            placeholder="Inser IBAN/Account nr. or select from the address book"
+            placeholder="Insert IBAN/Account nr. or select from the address book"
             component={this.renderField}
           />
           <div className="form-group col-2 pl-0">
