@@ -94,6 +94,16 @@ hr.style-two {
   margin-top: 2em;
 }
 
+.append{
+  margin-top: 2em;
+  text-align: center;
+}
+
+.append i {
+  font-size: 37px;
+  color: #ccc;
+}
+
 .invalid-text{
   width: 100%;
   margin-top: .25rem;
@@ -107,6 +117,10 @@ hr.style-two {
 
 .valid-input{
   border-color: #28a745 !important;
+}
+
+.transfer-form, .payment-form{
+  margin-bottom: 85px;
 }
 
 .search-bar{
@@ -253,6 +267,7 @@ div .pie-chart svg{
   width: 80px;
   margin-top: 10px;
 }
+
 
 #navbarSupportedContent{
   background-color: #333333;
