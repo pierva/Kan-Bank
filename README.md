@@ -1,25 +1,22 @@
-# ReduxSimpleStarter
+# Kan_Bank
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This application has been created to solve a design assignment. The website has no logic or functionality of any sort.
 
-### Getting Started
+It illustrates part of the front-end and the responsiveness on a different devices. Among the list of pages listed in the menu, the only ones that have actually being designed and created are:
 
-There are two methods for getting started with this repo.
+-Landing Page
+-Account Summary
+-Transfer Money
+-Bill pay
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+It is meant to render properly on different devices, however users may find challenges on viewport of 320px x 480px.
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
+This website was created with React and Redux. 
+The base webpack boilerplate was taken from Stephen Grider
+git@github.com:StephenGrider/ReduxSimpleStarter.git
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+To run the application use:
+npm run start
 
-```
-> npm install
-> npm start
-```
+Then navigate to localhost:8080
+

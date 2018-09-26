@@ -1,7 +1,7 @@
 {
   "name": "Kan_Bank_Sample_Application",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Simple starter package for a sample application in Redux with React and Babel support",
   "main": "index.js",
   "repository": "git@github.com:pierva/Kan-Bank.git",
   "scripts": {
