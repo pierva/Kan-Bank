@@ -30,15 +30,25 @@
 
 .landing-middle-content{
   overflow-y: auto;
-  margin-top: 260px !important;
+  margin-top: 210px !important;
   margin: 0 auto;
   position: fixed;
   height: 40%;
 }
 
+@media (max-width: 991.98px) {
+  .landing-middle-content{
+    margin-top: 270px !important;
+  }
+}
+
 @media (max-width: 767.98px) {
   .login-form{
     margin-top: 100px;
+  }
+
+  .landing-middle-content{
+    margin-top: 250px !important;
   }
 }
 
@@ -48,7 +58,7 @@
     margin-top: 40px;
   }
 
-  .middle-content{
+  .landing-middle-content{
     margin-top: 200px !important;
   }
 
